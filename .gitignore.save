@@ -1,0 +1,66 @@
+# Xcode
+#
+.DS_Store
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+#
+Packages
+/.build
+/*.xcodeproj
+/Package.resolved
+
+# Carthage
+#
+Carthage/Build
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Coverage
+#
+*.xccovreport
+*.xccovarchive
+
+# Temporary files
+#
+*.moved-aside
+*.xcuserstate
+
+# Other
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# AppCode
+#
+.idea/
+
+# Personal Xcode settings
+#
+xcuserdata/
+
+# macOS files
+#
+*.swp
+*.lock
+*~
+
+# Asset catalog caches
+#
+*.xcassets
+
